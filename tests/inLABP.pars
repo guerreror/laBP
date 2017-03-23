@@ -1,0 +1,20 @@
+10000	~Number of runs
+1		~Kingman coalescent? (bool)
+0		~Simulate drift? (bool)
+1		~Output ms-formatted haplotypes (bool)
+10000 10000~Population sizes (sum=2N)
+0 0	~Inversion frequencies per pop
+1 10000 0 ~Sim speciation? (bool, time in generations, inversion freq in ancestor). Will merge all populations into one 
+0 0 0 ~Sim demography change? (bool, time, coefficient). Will multiply all pop sizes by coefficient
+0 	~Age of inversion (0=infinite)
+0		~Migration rate (4Nm)
+1e8		~bp per Morgan in homokaryotypes (typical-> 1e6 bp per 1cM = 1e8)
+0		~Random phi? if yes, next line must be range. If not, first value below is phi
+0	   ~Phi (probability), or range of Phi (in exponents of 10)
+0 1e3	~Inversion breakpoints (in bp)
+0 1000 1e-6 ~Fixed number of SNPs (segregating sites)? (bool, number of bases or SNPs, mutation rate)  
+1		~SNPs in random positions?
+1000.01 1000.011   ~range where SNPs are found, or list of positions if not random
+0		~random draw of carriers (1 = will read only first row below, numbers below will be sample size per pop)
+10 0	~number of carriers with S, I allele (in pop0; other pops in following lines if random draw  = 0)
+10 0	~

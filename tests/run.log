@@ -1,0 +1,26 @@
+Number of runs: 10000
+Assuming Kingman? 1
+Simulating drift? 0
+Output each set in ms format? 1
+Population Sizes: 0 = 10000 | 1 = 10000 | 
+Frequencies of inverted chromosomes: 0 = 0 | 1 = 0 | 
+Speciation time: 10000
+No demographic event.
+Age of inversion = 0
+Migration rate (pop0<-->1) = 0
+Bases per Morgan in homokaryotypic recombination 1e+08
+Random phi values? (if 1, range below. if 0, single value read below) 0
+Gene flux (phi) = 0
+Inversion from: 0 to 1000 (0 - 1e-05 recUnits)
+Number of bases (non-recombining) to simulate: 1000, with mutation rate: 1e-06
+Markers in random locations? 1
+2 Site positions read.
+Warning: Number of segregating sites (S) is not fixed. SNPRange will be ignored. Random SNPs will be simulated in non-recombining region, using theta parameter.
+Window of SNP locations (in recUnits): 1.00001e-05 - 1.00001e-05
+Random sample of carriers? 0
+Sample in Pop 0: 10 0 
+Sample in Pop 1: 10 0 
+Progress ticker (1 tick = 10% of runs): ++++++++++
+Mean LD (E[T1,n]) = 1.79371
+Mean TMRCA = 1.23067
+Elapsed time: 27.397s
